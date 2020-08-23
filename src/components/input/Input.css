@@ -1,0 +1,38 @@
+.input {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+}
+input.invalid {
+  border: 1px solid rgba(241, 57, 57, 0.9);
+}
+
+input:focus {
+  box-shadow: 0 0px 1px 0.5px rgba(0, 0, 0, 0.1);
+}
+
+input.invalid:focus {
+  box-shadow: 0 0px 1px 0.5px rgba(241, 57, 57, 0.4);
+}
+
+input::placeholder {
+  color: #bbb;
+}
+
+input.success {
+  border: 1px solid rgba(53, 177, 48, 0.9);
+}
+
+small {
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  color: rgb(241, 57, 57);
+}
